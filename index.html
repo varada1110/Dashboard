@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 col-md-6">
+    
+                <div class="left-div" >
+                    <i class="fa fa-skyatlas" style="font-size:30px;color:rgb(85, 186, 253)" id="icon"></i>
+                        <h4 id="linglee">Linglee</h4><br>
+                        <i class="material-icons" id="icon">&#xe42b;</i>
+                        <h5 id="dash" onclick="Func()">Dashboard</h5><br>
+                        <i style="font-size:24px" class="fa" id="icon">&#xf114;</i>
+                        <h5 id="li" onclick="Fun()" >Classes</h5><br>
+                        <i class="material-icons" id="icon" >&#xe916;</i>
+                        <h5 id="li" onclick="Fun()" >Resources</h5><br>
+                        <i class="material-icons" id="icon">&#xe870;</i>
+                        <h5 id="li" onclick="Fun()">Learning plan</h5><br>
+                        <span class="glyphicon" style="font-size: 20px;" id="icon" >&#xe111;</span>
+                        <h5 id="li" onclick="Fun()">Chat</h5><br>
+                        <i class="fa fa-pencil-square-o" style="font-size:24px" id="icon"></i>
+                        <h5 id="li"onclick="Fun()" >Settings</h5><br>
+                        <div class="bottom">
+                            <img src="undraw_resume_folder_2_arse.png" id="img">
+                            <h6 class="upgrade">Upgrade to <b>PRO</b> for <br> resources.</h6>
+                            <button type="button" class="btn1">Upgrade</button>
+                        </div>
+                      
+                    <div class="middle-div" id="k" >
+                        <h6 class="dashboard" >Dashboard</h6>
+                        <div class="one" >
+                            <img src="img_15450.png" id="img2">
+                            <h4 id="welcome">Welcome back Anna!</h4><br>
+                                    <h5 id="text">
+                                        You've learned 80% of your goal this week!<br>
+                                        Keep it up and improve your results!<br>
+                                    </h5></div><br>
+                            <div class="two" ><b id="latest">Latest Results</b></div>
+                                <div class="three" ><b id="latest">Time spent for learning</b></div>
+                                <h6 class="courses">Your Courses</h6>
+                                <h6 class="more">More</h6>
+                                <div class="four" ><div id="sm1" style="background-color: #6b3cb3;"><h6 class="c1">B2</h6></div><h6 class="small">Bussiness English<br><b class="big">Grammar</b></h6></div>
+                                <div class="five"><div id="sm1" style="background-color: #6e3eb8;"><h6 class="c1">B2</h6></div><h6 class="small">Common English<br><b class="big">Phrasal verbs</b></h6></div>
+                                <div class="six"><div id="sm1" style="background-color: #e797a9;"><h6 class="c1">C1</h6></div><h6 class="small">Bussiness Spanish<br><b class="big">Vocabulary</b></h6></div>
+                    </div>
+                    <div id="new" ><div id="neww"></div></div>
+                    
+                                <div class="right-div"><h6 class="logout">Logout<i style="font-size:20px; color:rgb(214, 211, 211);" id="log" class="fa">&#xf011;</i></h6><br>
+                        <img src="236432-200.png" id="img3">
+                        <h6 class="name">Anna Morrison</h6><br>
+                    <h6 class="std">Student</h6><br>
+                    <div id="sm"><h6 class="b2">B2</h6></div>
+                    <h6 class="lang">English</h6><br>
+                    <h6 class="lang1">High intermediate</h6><br>
+                    <div id="sm"><h6 class="b2">C2</h6></div>
+                    <h6 class="lang2">Spanish</h6><br>
+                    <h6 class="lang1">Advanced</h6><br>
+                    <h6 class="rem">Reminders<i class="material-icons" id="log" style="color: rgb(212, 209, 209);">&#xe003;</i></h6><br>
+                    <div id="a"><i style="font-size:19px; color:rgb(253, 115, 115); margin-top: 1.5vh; margin-left: 2vh;" class="fa">&#xf29c;</i></div>
+                    <h6 class="lang3">Eng-Vocabulary test</h6><br>
+                    <h6 class="lang1">24 Sep 2019,Friday</h6><br>
+                    <div id="b"><i style="font-size:18px; color: rgb(202, 202, 202); margin-top: 1vh; margin-left: 1.5vh;" class="fa">&#xf003;</i></div>
+                    <h6 class="lang4">Eng-Send grammar homework</h6><br>
+                    <h6 class="lang1">29 Sep 2019,Wednesday</h6><br>
+                    <div id="c"><i style="font-size:18px; color: rgb(202, 202, 202); margin-top: 1vh; margin-left: 1.5vh;" class="fa">&#xf003;</i></div>
+                    <h6 class="lang4">Spanish-send essay</h6><br>
+                    <h6 class="lang1">06 Oct 2019,Monday</h6><br>
+
+                    
+
+                    </div>
+                </div>
+            </div>
+ 
+    
+        </div>    
+                
+              
+            
+           
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+</body>
+</html>
